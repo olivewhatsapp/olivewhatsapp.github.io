@@ -13,4 +13,4 @@ header { padding-top:60px; text-align:center; position:relative; }
 .header-image { width:100%; max-height: 500px; object-fit: cover; object-position: center;}
 .centeredtext { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:#b00b69; font-size:48px; font-weight:bold; }
 .previewsets { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:20px; }
-.set img { width:100%; border-radius:10px; }
+.set img { width:100%; border-radius:20px; }
