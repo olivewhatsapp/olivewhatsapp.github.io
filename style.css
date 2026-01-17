@@ -1,4 +1,4 @@
-body { margin:0;  font-family: 'Verdana', Geneva, sans-serif;; background:#279b77; color:#b00b69; }
+body, a { margin:0;  font-family: 'Verdana', Geneva, sans-serif; background:#279b77; color:#b00b69; }
 nav { background:#279b77; color:#b00b69; padding:10px 20px; position:fixed; width:100%; top:0; z-index:1000; }
 .nav-container { display:flex; justify-content:space-between; align-items:center; }
 .nav-links { display:flex; list-style:none; gap:20px; }
