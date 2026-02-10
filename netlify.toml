@@ -1,7 +1,10 @@
 [[redirects]]
-  # Requests to URLs matching this pattern...
-  from = "/images/full/:file"
-  # ...will resolve to this URL pattern
-  to = "/.netlify/images?url=/images/:file"
-  # ... and the status code of 200 will make this behave as a rewrite
+  from = "cwn/:file"
+  to = "/.netlify/images?url=/cwn/:file"
+  status = 200
+  from = "opg/:file"
+  to = "/.netlify/images?url=/opg/:file"
+  status = 200
+  from = "other/:file"
+  to = "/.netlify/images?url=/other/:file"
   status = 200
