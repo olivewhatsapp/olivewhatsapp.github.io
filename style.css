@@ -8,7 +8,7 @@ h1, h2, h3, img {text-align: center;}
 h2 {padding-left: 85px; padding-right: 85px;}
 h4 {margin: 0 auto;}
 a {text-decoration: none;}
-.card {display: inline-block; vertical-align: middle; width:20vh; padding: 5px; border-radius: 20px;}
+.card {display: inline-block; vertical-align: middle; width:25vw; padding: 5px; border-radius: 20px;}
 .emblem {width: 9%;}
 header { padding-top:60px; text-align:center; position:relative; }
 .header-image { width:100%; max-height: 500px; object-fit: cover; object-position: center;}
