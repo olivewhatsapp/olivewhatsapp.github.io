@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPicker</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo"><a href="index.html"><img src="icon.png" class="emblem"></div>
+    </div>
+  </nav>
+  <header id="home">
+    <img src="timereversal.png" alt="Time Reversal by Howard Lyon" class="header-image">
+    <div class="centeredtext">Olive's Custom Gallery</div>
+    <p></p>
+  </header>
+  <h1>GPicker</h1>
+  <h3><a href="gpicker.html">Choose again</a></h3>
+  <img id="gpicker" src="" alt="GPicker">
+  <script>
+  const images = [
+    "cwn/Pris’mah, Guiding Star.jpeg",
+    "cwn/Atlantis Rising.jpeg",
+	"cwn/Pario and Ainanis, Key and Gate.jpeg",
+    "cwn/Dead Aim.jpeg",
+	"cwn/Forces of Nature.jpeg",
+	"Gaia’s Renewing Requiem",
+	"cwn/Agent S, Shadowwalker.jpeg",
+	"cwn/G, Black Suit Leader.jpeg",
+	"cwn/Lunar Shield Blast.jpeg",
+	"cwn/Radiant Saber.jpeg",
+	"cwn/Rei Chronoa, Eye of Cosmos.jpeg",
+	"cwn/Shiro, Rift-Rending Claw.jpeg",];
+  function gpicker() {const index = Math.floor(Math.random() * images.length); const element = document.getElementById("gpicker"); if (element) {element.src = images[index];}} document.addEventListener('DOMContentLoaded', (event) => {gpicker();});
+  </script>
+</body></html>
